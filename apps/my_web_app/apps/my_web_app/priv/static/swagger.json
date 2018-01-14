@@ -1,0 +1,30 @@
+{
+  "swagger": "2.0",
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "Page"
+        ],
+        "summary": "",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        },
+        "produces": [
+          "text/html"
+        ],
+        "parameters": [],
+        "operationId": "MyWebApp.PageController.index",
+        "description": "Phoenix Welcome Page"
+      }
+    }
+  },
+  "info": {
+    "version": "1.0",
+    "title": "My Web App"
+  },
+  "host": "localhost:4000",
+  "definitions": {}
+}
